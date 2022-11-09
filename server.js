@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
       </head>
       <body>
         <section>
-          <h2>Put your own goals!!</h2>
+          <h2>Hello DevOps!!</h2>
           <h3>${userGoal}</h3>
         </section>
         <form action="/store-goal" method="POST">
